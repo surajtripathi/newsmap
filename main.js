@@ -7,7 +7,7 @@ $(document).ready(function(){
           geocoder.geocode( { 'address': placeToPlot.place }, function(results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
               contentString = '<div style="font-weight: bold;font-family: Arial, Helvetica, sans-serif;">' + '<p><a style="text-decoration: none;" href="'+placeToPlot.url +'" target="_blank">'+ placeToPlot.title + '</p>'+'</div>';
-              alert(results[0].geometry.location);
+              //alert(results[0].geometry.location);
               tempMarker = new google.maps.Marker({
                                          map: map,
                                          position: new google.maps.LatLng(results[0].geometry.location.lat()+Math.random(),results[0].geometry.location.lng()+Math.random()),
