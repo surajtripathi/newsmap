@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>graph api</title>
+	<title>News on a Map</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 	<script src="http://maps.googleapis.com/maps/api/js"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="oms.min.js"></script>
